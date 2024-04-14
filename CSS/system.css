@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  border:none;
+}
+
+
+body{
+  display: flex;
+  background:url('../images/background-gradient-design-wave-blue-modern-vector-48874674.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #1C05B3;
+}
+.sidebar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 65px;
+  height: 120vh;
+  padding: 0 1.7rem;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  background: transparent;
+  backdrop-filter: blur(17px) brightness(80%);
+}
+
+.sidebar:hover{
+  width: 300px;
+  transition: 0.5s all ease;
+}
+
+
+.logo{
+  height: 80px;
+  padding: 16px;
+}
+
+.menu{
+  height: 88%;
+  position: relative;
+  list-style: none;
+}
+
+.menu li{
+  width: 100%;
+  padding: .6rem;
+  margin: 8px 0px;
+  border-radius: 8px;
+  transition: all 0.5s linear;
+}
+
+.menu li:hover{
+  background: #1C05B3;;
+  width: 1000%;
+}
+
+.menu a,i{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  align-items: center;
+  gap:1.5rem;
+}
+/* 
+.menu a span{
+  overflow:hidden;
+} */
+
+.logout{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.main-content{
+  position: relative;
+  background: #ebe9e9;
+  width: 100%;
+  padding: .2rem;
+  height: 160vh;
+}
+
+
+.header-wrapper img{
+  width:60px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.header-wrapper{
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: flex-wrap;
+  background:#fff;
+  border-radius:10px;
+  padding: 10px 2rem;
+  margin-bottom: 1rem;
+}
+
+.user-info{
+  display: flex;
+  padding: 1rem;
+}
+
+
+.gango{
+  margin-left: 20px;
+}
+
+.graded{
+  padding: 1rem;
+  background-color: #ecebf3;
+}
+.graded h3{
+  padding: 1rem;
+}
+.graded h1{
+  padding: 1rem;
+}
+.real-form{
+  display: flex;
+  padding: 1.5rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+.real-form label{
+  padding: 1rem 0rem 1rem 1rem;
+}
+.real-form input{
+  padding: 1rem;
+  border-radius: 10px;
+  width: 50vh;
+  margin: 0px 20px;
+}
+
+.btn-2 a{
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+.btn-3 a{
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+
+.graded-div{
+  display: flex;
+}
+
+.graded-div .btn-2{
+  margin-left: 65%;
+}
+.btn-2{
+  border-radius: 40px;
+  width:15%;
+  height: 45px;
+  border: none;
+  margin: 10px 40px;
+  background-color:#1C05B3;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.tabular-wrapper{
+  background: #fff;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 2rem;
+  height: 90vh;
+}
+
+.table-container{
+  width: 100%;
+  border-radius: 50px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 90px;
+}
+
+thead{
+  color: rgb(219, 25, 25);
+  color:#624cf0;
+  border: 1px solid rgb(143, 193, 250);
+  border-radius: 40px;
+}
+
+th{
+  padding: 15px;
+  text-align: left;
+}
+
+tbody{
+  background: #ebe9e9;
+}
+
+td{
+  padding: 15px;
+  font-size: 15px;
+  color: rgb(56, 54, 54);
+  font-weight: bolder;
+  font-display:calc(50%);
+}
+
+tr:nth-child(even){
+  background-color: #fff;
+}
+
+tfoot{
+  color:rgba(27, 115, 57);
+  font-weight: bold;
+  color:#fff
+}
+
+tfoot td{
+  padding: 15px;
+}
+
+.table-container button{
+  color:green;
+  background: none;
+  cursor: pointer;
+}
+
+.big-chopper{
+  display: flex;
+  align-items: center;
+  background-color: rgb(250, 231, 231);
+  border-radius:10px;
+  margin-bottom: 1rem;
+  height: 7vh;
+}
+.big-chopper h3{
+  padding: 3px;
+  font-variant:small-caps;
+  font-size: larger;
+  font-style: oblique;
+}
+.alerted-perl{
+  background: goldenrod;
+  border-radius:10px;
+  width: 10px;
+  height: 7vh;
+}
+.red-head{
+  color: red;
+}
+
+.checkbox{
+  display: flex;
+  padding: 1rem;
+  padding-left: 2.5rem;
+}
+
+select{
+  padding: 1rem;
+  margin: .5rem;
+  width: 25vh;
+  border-radius: 10px;
+
+}
+.checkbox input[type='checkbox']{
+  width: 15px;
+  border-radius: 40px;
+}
+
+.option{
+  border: 10px solid greenyellow;
+  border-radius: 20px;
+}
+
+ion-icon{
+  font-size: 1.5rem;
+}
+
+.filter{
+  padding: 3rem;
+} 
+
+.table{
+  text-align: center;
+  border: 2px solid #1C05B3;
+  border-radius: 10px;
+  border-collapse:initial
+}
+
+.table th{
+  background: #1C05B3;
+  color: white;
+}
+
+
+.btn-3{
+  border-radius: 10px;
+  width:50%;
+  height: 60px;
+  border: none;
+  background-color:#1C05B3;;
+  border: 3px solid #fff;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.abtn-1 a{
+  text-decoration: none;
+}
+.abtn-1{
+  border-radius: 80px;
+  width:50%;
+  height: 60px;
+  border: none;
+  background-color:transparent;;
+  border: 3px solid #1C05B3;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+  .abtn-2 a{
+  text-decoration: none;
+}
+.abtn-2{
+  border-radius: 80px;
+  width:50%;
+  height: 60px;
+  border: none;
+  background-color:transparent;;
+  border: 3px solid red;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+.abtn-12 a{
+  text-decoration: none;
+}
+.abtn-12{
+  border-radius: 80px;
+  width:fit-content;
+  height: 60px;
+  border: none;
+  background-color:transparent;;
+  border: 3px solid #1C05B3;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.la-fama{
+  position: relative;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 05vh;
+  flex-wrap: wrap;
+}
+
+.fama:hover{
+  transform: scale(1.1);
+  transition: 0.8s all ease-in-out;
+}
+.fama{
+  margin: 30px;
+  width: 85vh;
+  height: 57vh;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 3px 3px 4px 3px rgb(97, 146, 236);
+}
+
+#columnchart_values,#chart_div,#piechart,#columnchart_material{
+  padding: 4rem;
+}
+
+#table{
+  margin-top: 4vh;
+}
+
+#table h1{
+  padding-top: 30;
+}
+
+.la-fama{
+  height: fit-content;
+}
+
+#la-fama{
+  height:fit-content;
+}
+.moon-walk{
+  padding:30px;
+  color:grey;
+  font-size:15px;
+  font-style: oblique;
+}

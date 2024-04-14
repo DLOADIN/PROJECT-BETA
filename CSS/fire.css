@@ -1,0 +1,61 @@
+.abtn-10 a{
+  text-decoration: none;
+}
+.abtn-10{
+  height: 60px;
+  border: none;
+  background-color:transparent;;
+  border: 3px solid #1C05B3;
+  border-radius: 10px;
+  width:110%;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+  .abtn-20 a{
+  text-decoration: none;
+  color: red;
+}
+.abtn-20{
+  height: 60px;
+  border: none;
+  background-color:transparent;;
+  border: 3px solid red;
+  border-radius: 10px;
+  width:110%;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+.abtn-1 a{
+  text-decoration: none;
+}
+.abtn-1{
+  border-radius: 10px;
+  width:100%;
+  height: 60px;
+  border: none;
+  background-color:transparent;;
+  border: 3px solid #1C05B3;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+  .abtn-2 a{
+  text-decoration: none;
+}
+.abtn-2{
+  border-radius: 10px;
+  width:100%;
+  height: 60px;
+  border: none;
+  background-color:transparent;;
+  border: 3px solid red;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
